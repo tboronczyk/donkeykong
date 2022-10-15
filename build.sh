@@ -17,6 +17,7 @@ echo "Updating PRG..."
 dd if=prg/playerX-attr.bin of="$ROM" conv=notrunc bs=1 seek=$((0x06BA))
 dd if=prg/playerX.bin of="$ROM" conv=notrunc bs=1 seek=$((0x06C2))
 dd if=prg/gameover.bin of="$ROM" conv=notrunc bs=1 seek=$((0x06DD))
+dd if=prg/lives-loops.bin of="$ROM" conv=notrunc bs=1 seek=$((0x3A3A))
 
 echo "Generating patch..."
 $FLIPS -c -i "$ORIG" "$ROM" "$IPS"
