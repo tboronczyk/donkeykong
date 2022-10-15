@@ -12,6 +12,7 @@ cp "$ORIG" "$ROM"
 
 echo "Updating CHR..."
 dd if=chr/bonus.bin of="$ROM" conv=notrunc bs=1 seek=$((0x5270))
+dd if=chr/oilcan.bin of="$ROM" conv=notrunc bs=1 seek=$((0x54D0))
 dd if=chr/hiscore.bin of="$ROM" conv=notrunc bs=1 seek=$((0x5D10))
 
 echo "Updating PRG..."
