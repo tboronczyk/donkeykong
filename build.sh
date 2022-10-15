@@ -11,7 +11,7 @@ echo "GENERATING ROM AND IPS FROM $ORIG..."
 cp "$ORIG" "$ROM"
 
 echo "Updating CHR..."
-#...
+dd if=chr/bonus.bin of="$ROM" conv=notrunc bs=1 seek=$((0x5270))
 
 echo "Updating PRG..."
 dd if=prg/playerX-attr.bin of="$ROM" conv=notrunc bs=1 seek=$((0x06BA))
