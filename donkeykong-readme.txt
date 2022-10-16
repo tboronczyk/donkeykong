@@ -13,7 +13,7 @@ PRISKRIBO DE LUDO
 -----------------
 Ĉu vi savos Pauline el la manegoj de Donkey Kong? Helpu
 Jumpman (Saltulo, li tiame ne nomiĝis Mario) grimpi sur
-la konstruejon kaj savi lian koramikinon, Pauline. Evitu
+la konstruejon kaj savi sian koramikinon, Pauline. Evitu
 la fajraĵon kaj barelojn, kiujn Donkey Kong ĵetas
 malsupren por malhelpi la savprovon.
 
