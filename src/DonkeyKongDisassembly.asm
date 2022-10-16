@@ -1099,9 +1099,13 @@ db $13,$16,$30,$37
 
 ;data for "Player X" screen.
 DATA_C6AA:
-db $23,$DA					;set up attributes
-db $03|VRAMWriteCommand_Repeat
+db $23,$DB					;set up attributes
+db $02|VRAMWriteCommand_Repeat
 db $A0
+
+db $23,$DD
+db $01|VRAMWriteCommand_Repeat
+db $20
 
 db $21,$CA
 db $0C|VRAMWriteCommand_Repeat
@@ -1110,7 +1114,7 @@ db $24
 ;"  PLAYER I  " (I is replaced with II (tile 67) if second player, obviously
 db $21,$EA
 db $0C
-db $24,$15,$1E,$0D,$0A,$17,$1D,$18,$24,Tile_Roman_I,$24,$24
+db $24,$24,$15,$1E,$0D,$0A,$17,$1D,$18,$24,Tile_Roman_I,$24
 
 db VRAMWriteCommand_Stop
 
@@ -1127,8 +1131,8 @@ db $24
 
 ;" GAME  OVER "
 db $22,$2A
-db $0C
-db $24,$24,$15,$1E,$0D,$0F,$12,$17,$18,$24,$24,$24
+db $0B
+db $24,$24,$24,$15,$1E,$0D,$0F,$12,$17,$18,$24
 
 db $22,$4A
 db $0C|VRAMWriteCommand_Repeat
@@ -2171,7 +2175,7 @@ LDA Players_CurrentPlayer			;player 1?
 BEQ RETURN_CBF4					;leave as is
   
 LDA #Tile_Roman_II				;replace I with II
-STA BufferAddr+20				;
+STA BufferAddr+25				;
   
 RETURN_CBF4:
 RTS						;
