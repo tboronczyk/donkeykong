@@ -15,6 +15,9 @@ considered piracy.
 
   * Donkey Kong (World) (Rev A) - CRC32 `E40B593B`
 
+Special thanks to RussianManSMWC for
+[Donkey Kong NES Disassembly](https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly).
+
 ## Screenshots
 
 Here are some pretty screenshots:

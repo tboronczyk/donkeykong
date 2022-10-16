@@ -48,3 +48,7 @@ Timoteo BORONCZYK/bluephoenix
 
 Zerbie HYNSON/Terpomo11
  - Traduka konsultisto
+
+Specialajn dankojn al RussianManSMWC por
+Donkey Kong NES Disassembly
+(https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly).
