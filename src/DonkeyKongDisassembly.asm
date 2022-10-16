@@ -1099,8 +1099,8 @@ db $13,$16,$30,$37
 
 ;data for "Player X" screen.
 DATA_C6AA:
-db $23,$DB					;set up attributes
-db $02|VRAMWriteCommand_Repeat
+db $23,$DA					;set up attributes
+db $03|VRAMWriteCommand_Repeat
 db $A0
 
 db $21,$CA
@@ -1110,7 +1110,7 @@ db $24
 ;"  PLAYER I  " (I is replaced with II (tile 67) if second player, obviously
 db $21,$EA
 db $0C
-db $24,$24,$19,$15,$0A,$22,$0E,$1B,$24,Tile_Roman_I,$24,$24
+db $24,$15,$1E,$0D,$0A,$17,$1D,$18,$24,Tile_Roman_I,$24,$24
 
 db VRAMWriteCommand_Stop
 
@@ -1128,7 +1128,7 @@ db $24
 ;" GAME  OVER "
 db $22,$2A
 db $0C
-db $24,$10,$0A,$16,$0E,$24,$24,$18,$1F,$0E,$1B,$24
+db $24,$24,$15,$1E,$0D,$0F,$12,$17,$18,$24,$24,$24
 
 db $22,$4A
 db $0C|VRAMWriteCommand_Repeat
@@ -11106,40 +11106,36 @@ db $62
 
 ;1 PLAYER GAME A
 db $22,$09
-db $0F
-db $01,$24,$19,$15,$0A,$22,$0E,$1B
-db $24,$10,$0A,$16,$0E,$24,$0A
+db $0E
+db $01,$24,$15,$1E,$0D,$0A,$17,$1D,$18,$24,$0A,$24,$24,$24
 
 ;1 PLAYER GAME B
 db $22,$49
-db $0F
-db $01,$24,$19,$15,$0A,$22,$0E,$1B
-db $24,$10,$0A,$16,$0E,$24,$0B
+db $0E
+db $01,$24,$15,$1E,$0D,$0A,$17,$1D,$18,$24,$0B,$24,$24,$24
 
 ;2 PLAYER GAME A
 db $22,$89
-db $0F
-db $02,$24,$19,$15,$0A,$22,$0E,$1B
-db $24,$10,$0A,$16,$0E,$24,$0A
+db $0E
+db $02,$24,$15,$1E,$0D,$0A,$17,$1D,$18,$13,$24,$0A,$24,$24
 
 ;2 PLAYER GAME B
 db $22,$C9
-db $0F
-db $02,$24,$19,$15,$0A,$22,$0E,$1B
-db $24,$10,$0A,$16,$0E,$24,$0B
+db $0E
+db $02,$24,$15,$1E,$0D,$0A,$17,$1D,$18,$13,$24,$0B,$24,$24
 
 ;(c)1981 NINTENDO CO.,LTD.
 db $23,$05
 db $16
 db $D3,$01,$09,$08,$01,$24,$17,$12
 db $17,$1D,$0E,$17,$0D,$18,$24,$0C
-db $18,$65,$15,$1D,$0D,$64
+db $18,$64,$15,$1D,$0D,$64
 
 ;MADE IN JAPAN
-db $23,$4B
-db $0D
-db $16,$0A,$0D,$0E,$24,$12,$17,$24
-db $13,$0A,$19,$0A,$17
+db $23,$47
+db $11
+db $0F,$0A,$1B,$12,$1D,$0A,$24,$0E,$17,$24
+db $13,$0A,$19,$0A,$17,$12,$18
 
 db VRAMWriteCommand_Stop
 
@@ -11159,8 +11155,8 @@ db $FE,$FF					;II
 
 db $20,$94
 db $0A						;top of lives/bonus/loop counters portion
-db $25,$16,$2A,$26,$27,$28,$29,$2A
-db $15,$2D
+db $25,$1F,$2A,$26,$27,$28,$29,$2A
+db $0E,$2D
 
 db $20,$B4
 db $0A
