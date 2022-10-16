@@ -7,8 +7,11 @@ ROM="donkeykong-eo.nes"
 IPS="donkeykong-eo.ips"
 FLIPS="wine /opt/floating/flips.exe"
 
-echo "GENERATING ROM AND IPS FROM $ORIG..."
-cp "$ORIG" "$ROM"
+echo "Assembling ROM..."
+cd src
+/opt/asm6f/asm6f DonkeyKongDisassembly.asm "$ROM"
+mv "$ROM" "../$ROM"
+cd ..
 
 echo "Updating CHR..."
 dd if=chr/bonus.bin of="$ROM" conv=notrunc bs=1 seek=$((0x5270))
