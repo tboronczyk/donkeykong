@@ -12,20 +12,20 @@ paĝo por la projekto estas
 PRISKRIBO DE LUDO
 -----------------
 Ĉu vi savos Pauline el la manegoj de Donkey Kong? Helpu
-Jumpman (li tiame ne nomiĝis Mario) grimpi la konstruejon
-kaj savi lian koramikinon, Pauline. Evitu la fajraĵon kaj
-barelojn, kiujn Donkey Kong ĵetas malsupren por malhelpi
-la savprovon.
+Jumpman (Saltulo, li tiame ne nomiĝis Mario) grimpi sur
+la konstruejon kaj savi lian koramikinon, Pauline. Evitu
+la fajraĵon kaj barelojn, kiujn Donkey Kong ĵetas
+malsupren por malhelpi la savprovon.
 
 Dum niveloj unu kaj du, Jumpman devas atingi Pauline
-atendantan ĉe la supra parto de la ekrano. Dum nivelo tri,
-li kuras laŭ la ŝtalaj traboj kaj kolektas boltojn.
+atendantan ĉe la supra parto de la ekrano. Dum nivelo
+tri, li kuras laŭ la ŝtalaj traboj kaj kolektas boltojn.
 Kolekti ĉiujn boltojn kolapsigos la konstruaĵon, Donkey
 Kong falos sur la grundon, kaj Pauline estos savita.
 
 Sukcese fini nivelon tri kaj savi Pauline finos etapon.
 Do, ek al la sekva etapo! Kiam vi progresas, la malamikoj
-plinombriĝos kaj moviĝos pli rapide.
+pli multnombriĝas kaj moviĝas pli rapide.
 
 INFORMOJ PRI ROM
 ----------------
