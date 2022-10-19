@@ -1,5 +1,5 @@
 Donkey Kong (NES)
-Traduko al Esperanto v1.0 (16/10/2022)
+Traduko al Esperanto v1.1 (16/10/2022)
 
 ENKONDUKO
 ---------
