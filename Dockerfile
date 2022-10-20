@@ -27,3 +27,7 @@ RUN unzip /tmp/utilities/yychr20200119.zip -d /opt \
    && mv /opt/yychr20200119 /opt/yychr
 
 RUN unzip /tmp/utilities/floating.zip -d /opt/floating
+
+RUN unzip /tmp/utilities/asm6f.zip -d /opt \
+   && cd /opt/asm6f && make
+
