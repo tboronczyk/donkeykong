@@ -1,5 +1,5 @@
 Donkey Kong (NES)
-Traduko al Esperanto v1.1 (16/10/2022)
+Traduko al Esperanto v1.2 (05/12/2022)
 
 ENKONDUKO
 ---------
@@ -43,6 +43,9 @@ v1.0    15/10/2022
 
 v1.1    16/10/2022
  - korektis cimon rilate al finluda kolorpaletro
+
+v1.2    05/12/2022
+- korektis krom-arton
 
 KONTRIBUANTOJ
 -------------
